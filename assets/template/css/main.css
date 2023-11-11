@@ -1853,7 +1853,6 @@ ul.breadcrumb li + li:before {
   content: "▾";
   position: absolute;
   top: 50%;
-  -webkit-transformtransform: translate(0, -50%);
   transform: translate(0, -50%);
   line-height: 1rem;
   right: 0.8rem;
@@ -2634,7 +2633,6 @@ textarea::-webkit-input-placeholder {
   border: 2px solid #f442a3;
   border-radius: 9px;
   margin: 0 auto;
-  -webkit-transformtransform: translate(0px, -50%);
   transform: translate(0px, -50%);
   display: flex;
   align-items: center;
