@@ -1103,6 +1103,9 @@
     ul.breadcrumb li+li:before {
         padding: 8px;
     }
+    .sec-5 .where .front {
+        pointer-events: none;
+    }
 }
 
 @media only screen and (max-width: 720px) {}
