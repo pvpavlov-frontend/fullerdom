@@ -1103,7 +1103,7 @@
     ul.breadcrumb li+li:before {
         padding: 8px;
     }
-    .sec-5 .where .front {
+    .sec-2 .wrap-catalog__desc .front {
         pointer-events: none;
     }
 }
