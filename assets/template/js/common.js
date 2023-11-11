@@ -34,4 +34,12 @@ $(document).ready(function() {
         var slickTrackHeight = $(slickTrack).height();
         $(this).find('.slick-slide').css('height', slickTrackHeight + 'px');
     });
+
+
+    $(".wrap-catalog__desc .front").on("click", function(e) {
+        e.preventDefault();
+        // if (this != e.target) return;
+        if (this != e.target) return;
+        console.log('prevented');
+    });
 });

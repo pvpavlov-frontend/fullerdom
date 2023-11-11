@@ -1103,9 +1103,10 @@
     ul.breadcrumb li+li:before {
         padding: 8px;
     }
-    .sec-2 .wrap-catalog__desc .front {
-        pointer-events: none;
-    }
+    /* .sec-2 .wrap-catalog__desc:hover {
+        transform: rotateY(0deg);
+        border: none;
+    } */
 }
 
 @media only screen and (max-width: 720px) {}
