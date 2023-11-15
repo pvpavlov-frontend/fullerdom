@@ -1231,11 +1231,12 @@ ul.breadcrumb li + li:before {
 
 .item {
   position: relative;
-  transition: transform 950ms ease 0s;
+  transition: all 550ms ease 0s;
 }
 .item:hover, .item:focus {
   outline: none;
   transform: translate3d(0px, -8px, 0px);
+  box-shadow: 0px 4px 50px rgba(120, 120, 120, 0.55);
 }
 
 .item__desc {
